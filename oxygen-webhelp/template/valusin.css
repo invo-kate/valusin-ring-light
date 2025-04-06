@@ -565,6 +565,12 @@ Example:
 .wh_topic_content .related-links {
   font-size: .91em;
 }
+
+@media screen and (max-width: 767px) {
+.table td, .table th { 
+    vertical-align: middle;
+    }
+}
 /*
  * ------------------------------------------------------------------
  *
